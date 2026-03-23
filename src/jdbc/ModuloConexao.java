@@ -17,7 +17,7 @@ public class ModuloConexao {
         //criando o driver  correspondente ao banco
         String driver = "com.mysql.cj.jdbc.Driver";
         //armazenando informações referente ao banco de dados
-        String url = "jdbc:mysql://localhost:3306/gestaopedidos?characterEncoding=utf-8"; //useTimezone=true&serverTimezone=UTC
+        String url = "jdbc:mysql://localhost:3306/gestaopedidos?characterEncoding=utf-8";//useTimezone=true&serverTimezone=UTC";
         String user = "root";
         String senha = "IFROOcrxi18$";
         //estabelecer a conexão com o banco
